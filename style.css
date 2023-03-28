@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-image:url("./bg-stars.svg");
+    background-position:bottom;
+    background-repeat: no-repeat; */
+    background: linear-gradient(180deg, #1D1E28 0.12%, #261C2D 94.84%, #261A2D 100%);
+}
+#main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.stars{
+    position: absolute;
+    margin-top: 33em;
+}
+.pattern{
+    position: absolute;
+    margin-bottom: -147em;
+}
+h1{
+    width: 330px;
+    height: 48px;
+    font-size: 18px;
+    margin-top: 8rem;
+    line-height: 24px;
+    letter-spacing: 6.1px;
+    text-transform: uppercase;
+    color: white;
+}
+#center-div{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin-top: 5.4em;
+    gap: 16px;
+}
+.day-box{
+    
+    font-size: 62.5%;
+    width: 7em;
+    height: 6.6em;
+    border-radius: 4px;
+    background-color: #343650;
+
+}
+.inside-num1{
+    position: relative;
+    font-size: 36px;
+    line-height: 71px;
+    letter-spacing: -2.4px;
+    color: #FB5E84;
+}
+.inside-num2{
+    position: relative;
+    font-size: 36px;
+    line-height: 71px;
+    letter-spacing: -2.4px;
+    color: #FB5E84;
+}
+.inside-num3{
+    position: relative;
+    font-size: 36px;
+    line-height: 71px;
+    letter-spacing: -2.4px;
+    color: #FB5E84;
+}
+.inside-num4{
+    position: relative;
+    font-size: 36px;
+    line-height: 71px;
+    letter-spacing: -2.4px;
+    color: #FB5E84;
+}
+
+.oval{
+    border-radius: 50%;
+    margin-top: -4.8em;
+    width: 6px;
+    height: 6px;
+    background: #191A23;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+hr{
+    width: 7em;
+    margin-top: -0.35em;
+    height: 0.05em;
+    border: none;
+    background-color: #000000;
+    mix-blend-mode: normal;
+    opacity: 13.25%;
+}
+.oval1{
+    border-radius: 50%;
+    margin-top: -0.35em;
+    margin-left: 6.5em;
+    width: 6px;
+    height: 6px;
+    background: #191A23;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.under-box{
+    font-size: 7px;
+    line-height:9.2px;
+    letter-spacing: 3px;
+    color: #8385A9;
+}
+
+
+
+footer{
+    Height:168px;
+    background-image: url("./pattern-hills.svg");
+    margin-top: auto;
+    width: 100%;
+    background-size: 375px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 148px;
+}
+.icons{
+    gap: 32px;
+    display: flex;
+    margin-top: 6em;
+    justify-content: center;
+}
+.icons path:hover {
+    fill:#FB5E84;
+    cursor: pointer;
+}
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+    h1{
+        width: 440px;
+        height: 29px;
+        font-size: 22px;
+        letter-spacing: 7.5px;
+    }
+    #center-div{
+        margin-top: 8em;
+        gap: 32px;
+        display: flex;
+    }
+    .day-box{
+        width: 148px;
+        height: 140px;
+    }
+    .inside-num{
+        position: relative;
+        height: 71px;
+        font-size: 80px;
+        margin-top: 0.4em;
+     
+    }
+    .oval{
+        width: 12px;
+        height: 12px;
+        margin-top: -11.5em;
+    }
+    hr{
+        width: 15em;
+        margin-top: -0.65em;
+    }
+    .oval1{
+        width: 12px;
+        height: 12px;
+        margin-left: 13.7em;
+        margin-top: -0.65em;
+    }
+    .under-box{
+        font-size: 14px;
+        line-height:18.5px;
+        letter-spacing: 6px;
+        margin-top: 4em;
+    }
+    .inside-num1{
+        margin-top: 0.4em;
+        font-size: 80px;
+       
+    }
+    .inside-num2{
+        margin-top: 0.4em;
+        font-size: 80px;
+       
+    }
+    .inside-num3{
+        margin-top: 0.4em;
+        font-size: 80px;
+       
+    }
+    .inside-num4{
+        margin-top: 0.4em;
+        font-size: 80px;
+       
+    }
+}
